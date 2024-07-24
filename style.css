@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  min-height: 100vh;
+  padding-top: 50px;
+  width: 100%;
+  background-image: linear-gradient(to right top, #d16ba5, #bf74bb, #a67ecd, #8788d9, #6091de, #4699e0, #2aa1de, #00a7da, #00b0d8, #00b9d1, #00c1c8, #11c8bc);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.header{
+  display: flex;
+  flex-direction: row;
+}
+
+.searchInput{
+  width: 700px;
+  border-radius: 50px;
+  padding-left: 20px;
+  border-style: none;
+  height: 60px;
+  font-size: medium;
+}
+
+.searchInput::placeholder{
+  font-size: medium;
+}
+
+.searchButton{
+  margin-left: -65px;
+  width: 65px;
+  height: 60px;
+  border-radius: 50px;
+  border-style: none;
+  background-color: rgb(243, 242, 242);
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+.searchButton:active{
+  opacity: 0.7;
+}
+
+.img1{
+  margin-top: 10px;
+}
+
+.temp{
+  margin-top: 10px;
+  color: white;
+  font-size: 100px;
+  font-family:"Orbitron", sans-serif;
+}
+
+.location{
+  margin-top: 10px;
+  color: white;
+  font-size: 70px;
+  font-family: "Orbitron", sans-serif;
+}
+
+.other-specs{
+  margin-top: 90px;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.physics, .humidity{
+  font-size: 30px;
+  font-family: "Orbitron", sans-serif;
+}
+
+.nest-flex{
+  margin-left: 10px;
+  color: white;
+  margin-right: 80px;
+}
+
+.humi-wind{
+  letter-spacing: 3px;
+}
